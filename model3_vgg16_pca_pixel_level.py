@@ -195,13 +195,9 @@ plt.style.use('seaborn')
 
 # plot roc curves
 plt.plot(fpr1, tpr1, linestyle='--',color='orange')
-# title
 plt.title('ROC curve')
-# x label
 plt.xlabel('False Positive Rate')
-# y label
 plt.ylabel('True Positive rate')
-
 plt.legend(loc='best')
 plt.savefig('ROC',dpi=300)
 plt.show();
